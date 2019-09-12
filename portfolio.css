@@ -1,0 +1,106 @@
+body {
+  font-family:sans-serif;
+  font-size: 24px;
+  margin:0px;
+}
+
+/*nav{
+    float: left;
+    width:100%;
+}
+
+h1{
+  margin-top: 90px;
+}*/
+
+.header {
+   content:url(hdr_backgrd1.jpg);
+   width:100%;
+   margin:0px;
+}
+
+.content{
+    margin: 20px;
+}
+
+ul.header_buttons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li.stick_nav {
+  float: left;
+}
+
+li a.page_links{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a.active {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #4CAF50;
+}
+
+.center {
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;*/
+  width: 30%;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+ul.left_buttons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5658c4;
+  top: 0;
+}
+
+li.sidebar{
+  display: block;
+  text-decoration: none;
+}
+
+li a.side_links{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+
+li a.side_links:hover {
+  background-color: #393a85;
+}
+
+article {
+ flex: 4
+}
